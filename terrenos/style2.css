@@ -1,0 +1,53 @@
+/*#74a2b4, #ffe88a*/
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: 3f6b7b;
+}
+
+.menu {
+    background-color: #74a2b4;
+    display: flex;
+    justify-content: center;
+}
+.menu ul {
+    list-style: none; /* Oculta os marcadores */
+}
+.menu ul li{
+    display: inline-block; /* Deixa os links na horizontal */
+    justify-content: space-around;
+}
+.menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none; /* Retira o sublinhado do link */
+    padding:10px 20px; /* Insere espaçamento interno na classe menu */
+}
+.menu ul li a:hover {
+    background-color:#375561; /* Hover é quando passa o mouse  */
+}
+h3 {
+    text-align: center;
+}
+
+.terrenos {
+    color: #375561 ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.terrenos h1{
+    align-items: center;
+}
+.terrenos img {
+    width: 350px;
+}
